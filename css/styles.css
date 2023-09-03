@@ -1,8 +1,19 @@
+/* Header */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 a {
   text-decoration: none;
 }
 ul {
-  text-decoration: none;
+  list-style-type: none;
 }
 
 .header-logo {
@@ -14,4 +25,31 @@ ul {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.span-header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.nav-link:hover .nav-link:focus .nav-link:active {
+  color: #404bbf;
+}
+
+.contacts-link {
+  color: #434455;
+  font-style: normal;
 }
