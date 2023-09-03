@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+
+.header-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
