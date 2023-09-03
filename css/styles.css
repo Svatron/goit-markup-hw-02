@@ -17,17 +17,16 @@ ul {
 }
 
 .header-logo {
-  color: var(--IRIS, #4d5ae5);
+  color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .span-header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -45,7 +44,9 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.nav-link:hover .nav-link:focus .nav-link:active {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
   color: #404bbf;
 }
 
@@ -53,3 +54,39 @@ ul {
   color: #434455;
   font-style: normal;
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* Section 1 */
+
+.section-one {
+  background-color: #2e2f42;
+}
+
+.section-one-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #404bbf;
+}
+
+/* Section 2 */
